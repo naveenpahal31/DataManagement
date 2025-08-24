@@ -1,0 +1,20 @@
+{
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.6993311036789298,
+      "precision": 0.49390243902439024,
+      "recall": 0.18100558659217877,
+      "f1": 0.2649223221586263,
+      "classification_report": "              precision    recall  f1-score   support\n\n           0     0.7246    0.9208    0.8110      2095\n           1     0.4939    0.1810    0.2649       895\n\n    accuracy                         0.6993      2990\n   macro avg     0.6093    0.5509    0.5380      2990\nweighted avg     0.6556    0.6993    0.6476      2990\n"
+    },
+    "random_forest": {
+      "accuracy": 0.7240802675585284,
+      "precision": 0.552710843373494,
+      "recall": 0.4100558659217877,
+      "f1": 0.47081462475946123,
+      "classification_report": "              precision    recall  f1-score   support\n\n           0     0.7730    0.8582    0.8134      2095\n           1     0.5527    0.4101    0.4708       895\n\n    accuracy                         0.7241      2990\n   macro avg     0.6629    0.6341    0.6421      2990\nweighted avg     0.7071    0.7241    0.7108      2990\n"
+    }
+  },
+  "best_model": "random_forest",
+  "best_f1": 0.47081462475946123
+}

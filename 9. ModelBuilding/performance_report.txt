@@ -1,0 +1,17 @@
+Experiment: bank_churn_lightweight\nTimestamp (UTC): 2025-08-24T07:17:38.511968\nDetected target column: num__Exited\n\n=== logistic_regression ===\nAccuracy:  0.6993\nPrecision: 0.4939\nRecall:    0.1810\nF1:        0.2649\nClassification Report:\n              precision    recall  f1-score   support
+
+           0     0.7246    0.9208    0.8110      2095
+           1     0.4939    0.1810    0.2649       895
+
+    accuracy                         0.6993      2990
+   macro avg     0.6093    0.5509    0.5380      2990
+weighted avg     0.6556    0.6993    0.6476      2990
+\n\n=== random_forest ===\nAccuracy:  0.7241\nPrecision: 0.5527\nRecall:    0.4101\nF1:        0.4708\nClassification Report:\n              precision    recall  f1-score   support
+
+           0     0.7730    0.8582    0.8134      2095
+           1     0.5527    0.4101    0.4708       895
+
+    accuracy                         0.7241      2990
+   macro avg     0.6629    0.6341    0.6421      2990
+weighted avg     0.7071    0.7241    0.7108      2990
+\n\nBest model: random_forest (by F1 = 0.4708)
