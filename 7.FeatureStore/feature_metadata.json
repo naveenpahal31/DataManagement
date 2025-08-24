@@ -1,0 +1,48 @@
+{
+  "Age_Group": {
+    "description": "Customer age bucketed into ranges",
+    "source_columns": [
+      "Age"
+    ],
+    "dtype": "category",
+    "version": "v1.0",
+    "created_on_utc": "2025-08-24T06:46:24.341698"
+  },
+  "Balance_to_Salary": {
+    "description": "Ratio of balance to estimated salary",
+    "source_columns": [
+      "Balance",
+      "EstimatedSalary"
+    ],
+    "dtype": "float64",
+    "version": "v1.0",
+    "created_on_utc": "2025-08-24T06:46:24.341698"
+  },
+  "Tenure_Bucket": {
+    "description": "Tenure grouped into ranges",
+    "source_columns": [
+      "Tenure"
+    ],
+    "dtype": "category",
+    "version": "v1.0",
+    "created_on_utc": "2025-08-24T06:46:24.341698"
+  },
+  "IsSenior": {
+    "description": "Binary flag: Age >= 60",
+    "source_columns": [
+      "Age"
+    ],
+    "dtype": "int",
+    "version": "v1.0",
+    "created_on_utc": "2025-08-24T06:46:24.341698"
+  },
+  "CreditScore_Bucket": {
+    "description": "Credit score grouped into buckets",
+    "source_columns": [
+      "CreditScore"
+    ],
+    "dtype": "category",
+    "version": "v1.0",
+    "created_on_utc": "2025-08-24T06:46:24.341698"
+  }
+}
