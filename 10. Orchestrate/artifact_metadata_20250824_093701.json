@@ -1,0 +1,6 @@
+{
+  "cleaned_data_path": "/mnt/data/pipeline_outputs/cleaned_data_20250824_093701.csv",
+  "validation_report": "/mnt/data/pipeline_outputs/validation_report_20250824_093701.json",
+  "row_count": 5000,
+  "run_timestamp": "20250824_093701"
+}

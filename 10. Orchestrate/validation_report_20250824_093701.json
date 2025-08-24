@@ -1,0 +1,96 @@
+{
+  "row_count": 5010,
+  "col_count": 14,
+  "columns": [
+    "RowNumber",
+    "CustomerId",
+    "Surname",
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "Exited"
+  ],
+  "null_counts": {
+    "RowNumber": 0,
+    "CustomerId": 0,
+    "Surname": 50,
+    "CreditScore": 0,
+    "Geography": 0,
+    "Gender": 0,
+    "Age": 0,
+    "Tenure": 101,
+    "Balance": 100,
+    "NumOfProducts": 0,
+    "HasCrCard": 0,
+    "IsActiveMember": 0,
+    "EstimatedSalary": 100,
+    "Exited": 0
+  },
+  "duplicates": 10,
+  "sample_value_checks": {},
+  "missing_expected_columns": [],
+  "extra_columns": [],
+  "numeric_checks": {
+    "CreditScore": {
+      "non_numeric_count": 0,
+      "min": 300.0,
+      "max": 850.0,
+      "mean": 570.7081836327345
+    },
+    "Age": {
+      "non_numeric_count": 0,
+      "min": 18.0,
+      "max": 69.0,
+      "mean": 43.59321357285429
+    },
+    "Balance": {
+      "non_numeric_count": 100,
+      "min": 4.738707915609499,
+      "max": 249960.55473391915,
+      "mean": 125351.34285233988
+    },
+    "NumOfProducts": {
+      "non_numeric_count": 0,
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 2.5049900199600796
+    },
+    "EstimatedSalary": {
+      "non_numeric_count": 100,
+      "min": 8.059242429858193,
+      "max": 199994.4299040849,
+      "mean": 99056.06824717339
+    },
+    "Tenure": {
+      "non_numeric_count": 101,
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 5.009981666327154
+    },
+    "HasCrCard": {
+      "non_numeric_count": 0,
+      "min": 0.0,
+      "max": 99.0,
+      "mean": 33.077045908183635
+    },
+    "IsActiveMember": {
+      "non_numeric_count": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5041916167664671
+    },
+    "Exited": {
+      "non_numeric_count": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.492814371257485
+    }
+  }
+}
